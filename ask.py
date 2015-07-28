@@ -20,4 +20,4 @@ if __name__ == "__main__":
             for question in questions:
                 print(question)
                 print(slack.chat.post_message('@ashu', question))
-                sleep(600)
+                sleep(1800)
