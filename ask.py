@@ -18,5 +18,6 @@ if __name__ == "__main__":
         while True:
             shuffle(questions)
             for question in questions:
+                print(question)
                 print(slack.chat.post_message('@ashu', question))
                 sleep(600)
